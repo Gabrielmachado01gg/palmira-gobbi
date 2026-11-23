@@ -1,0 +1,34 @@
+SITE - ASSOCIAÇÃO PALMIRA GOBBI AMIGOS DOS ANIMAIS
+Projeto Integrador - Grupo 4 - Ciências da Computação (Unilasalle)
+
+COMO ABRIR
+Dê dois cliques em index.html. O site abre no navegador, sem precisar instalar nada.
+
+PÁGINAS
+index.html        Início (baralho de cães, a turma, como ajudar, Instagram)
+caes.html         Os cães (os seis cães para adoção)
+caes/<nome>.html  Página de cada cão (galeria de fotos e mensagem pronta para o Instagram)
+historia.html     História e missão (linha do tempo com os vídeos da enchente, missão, visão e valores)
+adotar.html       Como adotar (passo a passo e adoção responsável)
+ajudar.html       Ajudar (PIX com QR Code, chave e PIX copia e cola)
+contato.html      Contato (WhatsApp, Instagram e PIX)
+
+WHATSAPP (IMPORTANTE)
+Abra assets/js/config.js e coloque o número da associação, só números, com 55 e DDD.
+Exemplo: whatsapp: "5551999998888"
+Todos os botões de WhatsApp do site passam a abrir a conversa com a mensagem pronta.
+Enquanto o número estiver vazio, esses botões abrem o Instagram.
+
+PASTAS
+assets/css     estilos (style.css)
+assets/js      config.js (número do WhatsApp) e main.js (interações), sem bibliotecas externas
+assets/img     logo, fotos dos cães e print do Instagram
+assets/video   vídeos da história, já recortados e comprimidos
+
+PUBLICAR DE GRAÇA
+Envie a pasta inteira para o GitHub Pages ou arraste para o Netlify Drop (app.netlify.com/drop).
+
+OBSERVAÇÕES
+- A página não mostra endereço nem localização do abrigo, como combinado com a diretoria.
+- As transições suaves entre páginas funcionam no Chrome e no Edge; nos outros navegadores o site funciona normalmente, só sem esse efeito.
+- As fontes vêm do Google Fonts; sem internet, o site usa a fonte padrão do sistema.
