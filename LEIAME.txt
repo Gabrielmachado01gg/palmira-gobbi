@@ -12,6 +12,7 @@ historia.html     História e missão (linha do tempo com os vídeos da enchente
 adotar.html       Como adotar (passo a passo e adoção responsável)
 ajudar.html       Ajudar (PIX com QR Code, chave e PIX copia e cola)
 contato.html      Contato (WhatsApp, Instagram e PIX)
+tutorial.html     Tutorial animado para as voluntárias (fora do menu e escondido do Google)
 
 WHATSAPP (IMPORTANTE)
 Abra assets/js/config.js e coloque o número da associação, só números, com 55 e DDD.
