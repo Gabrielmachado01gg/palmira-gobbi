@@ -7,7 +7,7 @@ Dê dois cliques em index.html. O site abre no navegador, sem precisar instalar 
 PÁGINAS
 index.html        Início (baralho de cães, a turma, como ajudar, Instagram)
 caes.html         Os cães (os seis cães para adoção)
-caes/<nome>.html  Página de cada cão (galeria de fotos e mensagem pronta para o Instagram)
+cao.html?c=nome   Página de cada cão (galeria de fotos e mensagem pronta para o WhatsApp)
 historia.html     História e missão (linha do tempo com os vídeos da enchente, missão, visão e valores)
 adotar.html       Como adotar (passo a passo e adoção responsável)
 ajudar.html       Ajudar (PIX com QR Code, chave e PIX copia e cola)
@@ -18,6 +18,11 @@ Abra assets/js/config.js e coloque o número da associação, só números, com 
 Exemplo: whatsapp: "5551999998888"
 Todos os botões de WhatsApp do site passam a abrir a conversa com a mensagem pronta.
 Enquanto o número estiver vazio, esses botões abrem o Instagram.
+
+CÃES (PLANILHA)
+Os cães vêm da planilha "Cães para adoção - Site Palmira Gobbi", no Google Drive da conta abrigocaesresgatadoscanoas@gmail.com.
+Marcar "adotado" tira o cão do site. Uma linha nova com "disponível" coloca um cão novo. As instruções estão na aba "Como usar".
+Se a planilha não responder, o site mostra a lista reserva de assets/js/caes.js.
 
 PASTAS
 assets/css     estilos (style.css)

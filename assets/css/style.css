@@ -491,3 +491,9 @@ h3 { font-size: 1.4rem; letter-spacing: -.015em; line-height: 1.15; }
 .contact-card.is-insta svg.icon { color: var(--orange-ink); }
 .contact-card .pix { background: var(--butter); flex-direction: column; align-items: flex-start; }
 .contact-card .pix code { word-break: normal; overflow-wrap: anywhere; font-size: .88rem; }
+
+/* ---------- Carregando os cães da planilha ---------- */
+[data-dogs-grid], .deck, [data-dog-page] { transition: opacity .35s ease; }
+.is-loading { opacity: 0; }
+[data-dog-page].is-loading { min-height: 60vh; }
+[hidden] { display: none !important; }
